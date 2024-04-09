@@ -1,0 +1,1101 @@
+<!-- type="company" block="block/WLKATA.js" generator="generator/WLKATA.js"
+-->
+<link rel="stylesheet" type="text/css" href="libraries/ThirdParty/WLKATA/css/Arduino.css">
+</link>
+<script type="text/javascript" src="libraries/ThirdParty/WLKATA/block/WLKATA.js">
+</script>
+<script type="text/javascript" src="libraries/ThirdParty/WLKATA/generator/WLKATA.js">
+</script>
+<category name="WLKATA_3.0.5_1" colour="120">
+	<category 20 id="WLKATA" name="Mirobot" colour>
+
+		<!-- 实例化对象 -->
+		<block type="WLKATA_object">
+			<value name="address">
+				<shadow type="math_number">
+					<field name="NUM">01</field>
+				</shadow>
+			</value>
+			<value name="address1">
+				<shadow type="math_number">
+					<field name="NUM">38400</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 实例化对象1 -->
+		<block type="WLKATA_object1">
+			<value name="address3">
+				<!-- <shadow type="math_number">
+					<field name="NUM">38400</field>
+				</shadow> -->
+			</value>
+		</block>
+
+
+		<!-- 等待机械臂空闲 -->
+		<block type="WLKATA_idle">
+			<value name="idle">
+			</value>
+		</block>
+
+		<!-- 穿透指令 -->
+		<block type="WLKATA_penetrate">
+			<value name="penetrate">
+				<shadow type="text">
+					<field name="TEXT">o100</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂复位 -->
+		<block type="WLKATA_reset">
+			<value name="reset">
+			</value>
+		</block>
+
+		<!-- 机械臂重启 -->
+		<block type="WLKATA_zero1">
+			<value name="reset">
+			</value>
+		</block>
+
+		<!-- 机械臂回零点 -->
+		<block type="WLKATA_ZEROING">
+			<value name="ZEROING">
+			</value>
+		</block>
+
+		<!-- TF文件执行 -->
+		<block type="WLKATA_TFexecute">
+			<value name="TFexecute">
+				<shadow type="text">
+					<field name="TEXT">test</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂位置运动 -->
+		<block type="WLKATA_position">
+			<value name="position1">
+				<shadow type="math_number">
+					<field name="NUM">192</field>
+				</shadow>
+			</value>
+			<value name="position2">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="position3">
+				<shadow type="math_number">
+					<field name="NUM">
+						230
+					</field>
+				</shadow>
+			</value>
+			<value name="position4">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="position5">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="position6">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂位置运动1 -->
+		<block type="WLKATA_position1">
+			<value name="position1">
+				<shadow type="math_number">
+					<field name="NUM">
+						192
+					</field>
+				</shadow>
+			</value>
+			<value name="position2">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="position3">
+				<shadow type="math_number">
+					<field name="NUM">
+						230
+					</field>
+				</shadow>
+			</value>
+			<value name="position4">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="position5">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="position6">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="position7">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂圆弧插补运动 -->
+		<block type="WLKATA_interpolation">
+			<value name="interpolation1">
+				<shadow type="math_number">
+					<field name="NUM">
+						192
+					</field>
+				</shadow>
+			</value>
+			<value name="interpolation2">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="interpolation3">
+				<shadow type="math_number">
+					<field name="NUM">
+						230
+					</field>
+				</shadow>
+			</value>
+			<value name="interpolation4">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+		</block>
+		<!-- 机械臂圆机械臂关节运动 -->
+		<block type="WLKATA_joint">
+			<value name="joint1">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="joint2">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="joint3">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="joint4">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="joint5">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="joint6">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+
+		</block>
+
+		<!-- 机械臂运动速度 -->
+		<block type="WLKATA_seep">
+			<value name="seep">
+				<shadow type="math_number">
+					<field name="NUM">
+						50
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂停止运动 -->
+		<block type="WLKATA_cease">
+			<value name="cease">
+			</value>
+		</block>
+
+		<!-- 机械臂第7轴减速比 -->
+		<block type="WLKATA_axle7">
+			<value name="axle7">
+				<shadow type="math_number">
+					<field name="NUM">
+						1
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂第7轴运动距离 -->
+		<block type="WLKATA_axle7_distance">
+			<value name="axle7_distance">
+				<shadow type="math_number">
+					<field name="NUM">
+						50
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂第7轴运动脉冲 -->
+		<block type="WLKATA_axle7_pulse">
+			<value name="axle7_pulse">
+				<shadow type="math_number">
+					<field name="NUM">
+						100
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+
+		<!-- 机械臂夹爪 -->
+		<block type="WLKATA_claw">
+			<value name="claw">
+			</value>
+		</block>
+		<!-- 机械臂吸盘 -->
+		<block type="WLKATA_pump1">
+			<value name="pump1">
+			</value>
+		</block>
+		<!-- 机械臂气泵 -->
+		<block type="WLKATA_pump">
+			<value name="pump">
+			</value>
+		</block>
+		<!-- 机械臂PWM -->
+		<block type="WLKATA_PWM">
+			<value name="PWM">
+				<shadow type="math_number">
+					<field name="NUM">
+						500
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 获取机械臂状态 -->
+		<block type="WLKATA_state">
+			<value name="state">
+			</value>
+		</block>
+		<!-- 获取机械臂状态1 -->
+		<block type="WLKATA_state1">
+			<value name="state">
+			</value>
+		</block>
+		<!-- 获取机械臂数据存入结果 -->
+		<block type="WLKATA_getStatus0">
+			<value name="state">
+			</value>
+		</block>
+		<!-- 获取机械臂运动模式 -->
+		<block type="WLKATA_getStatus1">
+			<value name="state">
+			</value>
+		</block>
+		<!-- 获取机械臂PWM -->
+		<block type="WLKATA_getStatus2">
+			<value name="state">
+			</value>
+		</block>
+		<!-- 获取机械臂坐标 -->
+		<block type="WLKATA_getStatus3">
+			<value name="state">
+			</value>
+		</block>
+
+		<!-- 获取机械臂角度 -->
+		<block type="WLKATA_getStatus4">
+			<value name="state">
+			</value>
+		</block>
+		<!-- 获取机械臂和分控板版本
+		<block type="WLKATA_version">
+			<value name="version">
+			</value>
+		</block> -->
+
+		<!-- 串口监视 -->
+		<!-- <block type="WLKATA_monitor">
+			<value name="monitor">
+			</value>
+		</block> -->
+
+		<!-- 应答超时 -->
+		<!-- <block type="WLKATA_timeout">
+			<value name="timeout">
+				<shadow type="math_number">
+					<field name="NUM">
+						3000
+					</field>
+				</shadow>
+			</value>
+			<value name="timeout1">
+				<shadow type="factory_block_return">
+					<field name="VALUE">
+						rs485_error
+					</field>
+				</shadow>
+			</value>
+		</block> -->
+
+		<!-- 回调函数 -->
+		<!-- <block type="procedures_defnoreturn">
+			<field name="NAME">
+				rs485_error
+			</field>
+			<statement name="STACK">
+				<block type="serial_print">
+					<field name="serial_select">
+						Serial
+					</field>
+					<field name="new_line">
+						println
+					</field>
+					<value name="CONTENT">
+						<block type="text">
+							<field name="TEXT">
+								error
+							</field>
+						</block>
+					</value>
+				</block>
+			</statement>
+		</block> -->
+
+
+	</category>
+
+	<category 20 id="WLKATA_E4" name="E4" colour>
+
+		<!-- 实例化对象 -->
+		<block type="E4_object">
+			<value name="address">
+				<shadow type="math_number">
+					<field name="NUM">01</field>
+				</shadow>
+			</value>
+			<value name="address1">
+				<shadow type="math_number">
+					<field name="NUM">38400</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 实例化对象1 -->
+		<block type="E4_object1">
+			<value name="address3">
+				<!-- <shadow type="math_number">
+					<field name="NUM">38400</field>
+				</shadow> -->
+			</value>
+		</block>
+
+
+		<!-- 等待机械臂空闲 -->
+		<block type="E4_idle">
+			<value name="idle">
+			</value>
+		</block>
+
+		<!-- 穿透指令 -->
+		<block type="E4_penetrate">
+			<value name="penetrate">
+				<shadow type="text">
+					<field name="TEXT">o100</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂复位 -->
+		<block type="E4_reset">
+			<value name="reset">
+			</value>
+		</block>
+
+		<!-- 机械臂重启 -->
+		<block type="E4_zero1">
+			<value name="reset">
+			</value>
+		</block>
+
+		<!-- 机械臂回零点 -->
+		<block type="E4_ZEROING">
+			<value name="ZEROING">
+			</value>
+		</block>
+
+		<!-- TF文件执行 -->
+		<block type="E4_TFexecute">
+			<value name="TFexecute">
+				<shadow type="text">
+					<field name="TEXT">test</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂位置运动 -->
+		<block type="E4_position">
+			<value name="position1">
+				<shadow type="math_number">
+					<field name="NUM">192</field>
+				</shadow>
+			</value>
+			<value name="position2">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="position3">
+				<shadow type="math_number">
+					<field name="NUM">
+						230
+					</field>
+				</shadow>
+			</value>
+			<value name="position4">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂位置运动1 -->
+		<block type="E4_position1">
+			<value name="position1">
+				<shadow type="math_number">
+					<field name="NUM">
+						192
+					</field>
+				</shadow>
+			</value>
+			<value name="position2">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="position3">
+				<shadow type="math_number">
+					<field name="NUM">
+						230
+					</field>
+				</shadow>
+			</value>
+			<value name="position4">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="position7">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂圆弧插补运动 -->
+		<block type="E4_interpolation">
+			<value name="interpolation1">
+				<shadow type="math_number">
+					<field name="NUM">
+						192
+					</field>
+				</shadow>
+			</value>
+			<value name="interpolation2">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="interpolation3">
+				<shadow type="math_number">
+					<field name="NUM">
+						230
+					</field>
+				</shadow>
+			</value>
+			<value name="interpolation4">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+		</block>
+		<!-- 机械臂圆机械臂关节运动 -->
+		<block type="E4_joint">
+			<value name="joint1">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="joint2">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="joint3">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+			<value name="joint4">
+				<shadow type="math_number">
+					<field name="NUM">
+						0
+					</field>
+				</shadow>
+			</value>
+
+		</block>
+
+		<!-- 机械臂运动速度 -->
+		<block type="E4_seep">
+			<value name="seep">
+				<shadow type="math_number">
+					<field name="NUM">
+						50
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂停止运动 -->
+		<block type="E4_cease">
+			<value name="cease">
+			</value>
+		</block>
+
+		<!-- 机械臂第7轴减速比 -->
+		<block type="E4_axle7">
+			<value name="axle7">
+				<shadow type="math_number">
+					<field name="NUM">
+						1
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂第7轴运动距离 -->
+		<block type="E4_axle7_distance">
+			<value name="axle7_distance">
+				<shadow type="math_number">
+					<field name="NUM">
+						50
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 机械臂第7轴运动脉冲 -->
+		<block type="E4_axle7_pulse">
+			<value name="axle7_pulse">
+				<shadow type="math_number">
+					<field name="NUM">
+						100
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+
+		<!-- 机械臂夹爪 -->
+		<block type="E4_claw">
+			<value name="claw">
+			</value>
+		</block>
+		<!-- 机械臂吸盘 -->
+		<block type="E4_pump1">
+			<value name="pump1">
+			</value>
+		</block>
+		<!-- 机械臂气泵 -->
+		<block type="E4_pump">
+			<value name="pump">
+			</value>
+		</block>
+		<!-- 机械臂PWM -->
+		<block type="E4_PWM">
+			<value name="PWM">
+				<shadow type="math_number">
+					<field name="NUM">
+						500
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 获取机械臂状态 -->
+		<block type="E4_state">
+			<value name="state">
+			</value>
+		</block>
+		<!-- 获取机械臂状态1 -->
+		<block type="E4_state1">
+			<value name="state">
+			</value>
+		</block>
+
+		<!-- 获取机械臂和分控板版本
+		<block type="E4_version">
+			<value name="version">
+			</value>
+		</block> -->
+
+	</category>
+
+	<category 30 id="WLKATA_Stepping" name="Stepping Motor" colour>
+		<!-- 实例化步进电机对象
+		<block type="WLKATA_Stepping">
+		</block> -->
+		<!-- 步进电机地址 -->
+		<block type="WLKATA_Stepping_address">
+			<value name="address">
+				<shadow type="math_number">
+					<field name="NUM">
+						10
+					</field>
+				</shadow>
+			</value>
+			<value name="address1">
+				<shadow type="math_number">
+					<field name="NUM">
+						38400
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 等待步进电机空闲 -->
+		<block type="WLKATA_Stepping_idle">
+			<value name="idle">
+			</value>
+		</block>
+
+		<!-- 步进电机穿透指令 -->
+		<block type="WLKATA_Stepping_penetrate">
+			<value name="penetrate">
+				<shadow type="text">
+					<field name="TEXT">
+						o100
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 步进电机速度 -->
+		<block type="WLKATA_speed">
+			<value name="speed">
+				<shadow type="math_number">
+					<field name="NUM">
+						50
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 步进电机机械臂重启 -->
+		<block type="WLKATA_Stepping_reset">
+			<value name="reset">
+			</value>
+		</block>
+
+		<!-- 送料机回零 -->
+		<!-- <block type="WLKATA_zero">
+		</block> -->
+
+		<!-- 送料机绝对位置 -->
+		<!-- <block type="WLKATA_absolute">
+			<value name="speed">
+				<shadow type="math_number">
+					<field name="NUM">
+						50
+					</field>
+				</shadow>
+			</value>
+			<value name="absolute">
+				<shadow type="math_number">
+					<field name="NUM">
+						50
+					</field>
+				</shadow>
+			</value>
+		</block> -->
+
+		<!-- 获取步进电机状态 -->
+		<block type="WLKATA_Stepping_state">
+			<value name="state">
+			</value>
+		</block>
+
+		<!-- 步进电机串口监视 -->
+		<!-- <block type="WLKATA_Stepping_monitor">
+			<value name="monitor">
+			</value>
+		</block> -->
+
+		<!-- 步进电机应答超时 -->
+		<!-- <block type="WLKATA_Stepping_timeout">
+			<value name="timeout">
+				<shadow type="math_number">
+					<field name="NUM">
+						3000
+					</field>
+				</shadow>
+			</value>
+			<value name="timeout1">
+				<shadow type="factory_block_return">
+					<field name="VALUE">
+						rs485_error
+					</field>
+				</shadow>
+			</value>
+		</block> -->
+
+		<!-- 步进电机回调函数 -->
+		<!-- <block type="procedures_defnoreturn">
+			<field name="NAME">
+				rs485_error
+			</field>
+			<statement name="STACK">
+				<block type="serial_print">
+					<field name="serial_select">
+						Serial
+					</field>
+					<field name="new_line">
+						println
+					</field>
+					<value name="CONTENT">
+						<block type="text">
+							<field name="TEXT">
+								error
+							</field>
+						</block>
+					</value>
+				</block>
+			</statement>
+		</block> -->
+	</category>
+
+	<category 40 id="WLKATA_Onboard" name="Onboard Sensor" colour>
+		<!-- 板载蜂鸣器控制1 -->
+		<block type="WLKATA_buzzer1">
+			<value name="buzzer">
+			</value>
+		</block>
+
+		<!-- 板载蜂鸣器控制 -->
+		<block type="WLKATA_buzzer">
+			<value name="buzzer">
+			</value>
+		</block>
+
+		<!-- 板载RGB控制 -->
+		<block type="WLKATA_RGB">
+			<value name="RGB">
+			</value>
+		</block>
+
+		<!-- 板载按键控制 -->
+		<block type="WLKATA_Onboard">
+			<value name="Onboard">
+			</value>
+		</block>
+
+		<!-- 2560重启 -->
+		<block type="WLKATA_restart">
+			<value name="restart">
+			</value>
+		</block>
+
+		<!-- GY33亮度设置 -->
+		<block type="WLKATA_gy33_brightness">
+			<value name="brightness">
+			</value>
+		</block>
+
+		<!-- GY33颜色 -->
+		<block type="WLKATA_gy33_colour">
+			<value name="colour">
+			</value>
+		</block>
+
+	</category>
+
+	<category 40 id="WLKATA_HuskyLens" name="HuskyLens" colour>
+
+		<!-- 初始化二哈传感器 -->
+		<block type="WLKATA_HuskyLens">
+			<value name="HuskyLens">
+			</value>
+		</block>
+
+		<!-- 二哈传感器切换算法直到成功 -->
+		<block type="WLKATA_algorithm">
+			<value name="algorithm">
+			</value>
+		</block>
+
+		<!-- 二哈传感器请求数据存入结果 -->
+		<block type="WLKATA_result">
+			<value name="result">
+			</value>
+		</block>
+
+		<!-- 从结果中获取已学ID总数 -->
+		<block type="WLKATA_total">
+			<value name="total">
+			</value>
+		</block>
+
+		<!-- 从结果中获取方框是否在画面中 -->
+		<block type="WLKATA_frame">
+			<value name="frame">
+			</value>
+		</block>
+
+		<!-- 从结果获取靠近中心方框的ID总数 -->
+		<block type="WLKATA_obtain">
+			<value name="obtain">
+			</value>
+		</block>
+
+		<!-- 从结果中获取ID是否学习 -->
+		<block type="WLKATA_study">
+			<value name="study">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 从结果中获取ID方框的参数X中心 -->
+		<block type="WLKATA_id_parameter">
+			<value name="parameter">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 从结果中获取方框总数 -->
+		<block type="WLKATA_total1">
+			<value name="total1">
+			</value>
+		</block>
+
+		<!-- 从结果中获取第1个方框的ID参数 -->
+		<block type="WLKATA_id_result">
+			<value name="result">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 从结果中获取ID方框总数 -->
+		<block type="WLKATA_total2">
+			<value name="total2">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 从结果中获取id1第1个方框的参数X中心点 -->
+		<block type="WLKATA_id_result1">
+			<value name="result">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+			<value name="result1">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 自动学习一次ID -->
+		<block type="WLKATA_automatic">
+			<value name="automatic">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 遗忘当前算法的所有学习数据 -->
+		<block type="WLKATA_forget">
+			<value name="forget">
+			</value>
+		</block>
+
+		<!-- 设置当前算法ID1名字为 -->
+		<block type="WLKATA_name">
+			<value name="name1">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+			<value name="name2">
+				<shadow type="text">
+					<field name="TEXT">
+						wlkata
+					</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 屏幕叠加显示文字在XY -->
+		<block type="WLKATA_screen">
+			<value name="name1">
+				<shadow type="text">
+					<field name="TEXT">
+						wlkata
+					</field>
+				</shadow>
+			</value>
+			<value name="name2">
+				<shadow type="math_number">
+					<field name="NUM">230</field>
+				</shadow>
+			</value>
+			<value name="name3">
+				<shadow type="math_number">
+					<field name="NUM">35</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- 清除屏幕显示的文字 -->
+		<block type="WLKATA_screen1">
+			<value name="name1">
+			</value>
+		</block>
+		<!-- 触发拍照保存到SD卡 -->
+		<block type="WLKATA_save_SD">
+			<value name="name1">
+			</value>
+		</block>
+
+		<!-- 保存当前算法数据为SD卡0号模型 -->
+		<block type="WLKATA_save_SD1">
+			<value name="name1">
+			</value>
+		</block>
+
+	</category>
+	<category 40 id="WLKATA_MINI_AGV" name="MINI_AGV" colour>
+		<!-- AGV小车前进后退左转右转 -->
+		<block type="WLKATA_AGV_move">
+			<value name="AGV_move">
+				<shadow type="math_number">
+					<field name="NUM">1000</field>
+				</shadow>
+			</value>
+		</block>
+		<!-- AGV小车巡线 -->
+		<block type="WLKATA_AGV_patrol">
+			<value name="AGV_patrol">
+				<shadow type="math_number">
+					<field name="NUM">1000</field>
+				</shadow>
+			</value>
+			<value name="AGV_patrol2">
+				<shadow type="math_number">
+					<field name="NUM">400</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- AGV小车左右巡线 -->
+		<block type="WLKATA_AGV_qet">
+		</block>
+
+		<!-- AGV小车速度 -->
+		<block type="WLKATA_AGV_speed">
+			<value name="AGV_speed">
+				<shadow type="math_number">
+					<field name="NUM">150</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!-- AGV小车风扇 -->
+		<block type="WLKATA_AGV_feng">
+			<value name="AGV_feng">
+			</value>
+		</block>
+
+	</category>
+</category>

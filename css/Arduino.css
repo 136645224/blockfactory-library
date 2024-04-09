@@ -1,0 +1,54 @@
+#WLKATA.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon {
+    background:url('../media/Arduino/wlkata2.png') no-repeat;
+    background-size: 100% auto;
+}
+#WLKATA.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon{
+    background:url('../media/Arduino/wlkata2.png') no-repeat;
+    background-size: 100% auto;
+}
+
+#WLKATA_E4.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon {
+    background:url('../media/Arduino/wlkata6.png') no-repeat;
+    background-size: 100% auto;
+}
+#WLKATA_E4.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon{
+    background:url('../media/Arduino/wlkata6.png') no-repeat;
+    background-size: 100% auto;
+}
+
+#WLKATA_Stepping.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon {
+    background:url('../media/Arduino/wlkata1.png') no-repeat;
+    background-size: 100% auto;
+}
+
+#WLKATA_Stepping.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon{
+    background:url('../media/Arduino/wlkata1.png') no-repeat;
+    background-size: 100% auto;
+}
+
+#WLKATA_Onboard.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon {
+    background:url('../media/Arduino/wlkata3.png') no-repeat;
+    background-size: 100% auto;
+}
+#WLKATA_Onboard.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon{
+    background:url('../media/Arduino/wlkata3.png') no-repeat;
+    background-size: 100% auto;
+}
+
+#WLKATA_HuskyLens.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon {
+    background:url('../media/Arduino/wlkata4.png') no-repeat;
+    background-size: 100% auto;
+}
+#WLKATA_HuskyLens.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon{
+    background:url('../media/Arduino/wlkata4.png') no-repeat;
+    background-size: 100% auto;
+}
+
+#WLKATA_MINI_AGV.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon {
+    background:url('../media/Arduino/wlkata5.png') no-repeat;
+    background-size: 100% auto;
+}
+#WLKATA_MINI_AGV.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon{
+    background:url('../media/Arduino/wlkata5.png') no-repeat;
+    background-size: 100% auto;
+}
