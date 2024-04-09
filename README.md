@@ -1,29 +1,34 @@
-DEMO
-===========================
 
-###########环境依赖
-Mixly2.0WIN
+---------------------------------------------------------
 
-###########安装步骤
+## Table of Contents
 
-1. 打开Mixly软件，导入库，选择本地导入，选择LWKATA库压缩包
+* [URL](#url)
+* [Summary](#summary)
+* [Blocks](#blocks)
+* [License](#license)
+* [Supported targets](#Supportedtargets)
 
-2. 提示导入自定义库成功！
+## URL
 
-###########目录结构描述
-├── Readme.md                   // help
-├── block                       // 块编写
-├── generator                   // 代码生成
-├── libraries                       // arduino_WLKATA库文件
-├── examples                     // 示例文件
-├──language                      //汉化文件
+* Get a purchase connection Mirobot: [store1](https://www.wlkata.com/).
 
-###########库目录
-├── Mirobot机械臂：支持使用mega 2560控制机械臂
-
-├── 步进电机：支持使用mega 2560控制步进电机
-├── 板载传感器：支持使用按键、RGB灯、蜂鸣器
+## Summary
+Support WLKATA series product control: Mirobot robotic arm, E4 robotic arm, slide rail, conveyor belt and other products.
 
 
-###########V1.0.0 版本内容更新
-V1.0.0 正式发布   20230607
+
+## License
+
+MIT
+
+## Supported targets
+
+MCU                | JavaScript    | Arduino   | MicroPython    | Remarks
+------------------ | :----------: | :----------: | :---------: | -----
+arduino mega 2560  |              |       √      |             | 
+
+
+
+## Release Logs
+* V3.0.5.1  WLKATA Robotic Arm Control Module.Supports blockfactory loading or Mixly loading.
